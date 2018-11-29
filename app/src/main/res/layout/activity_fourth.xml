@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@mipmap/mentaid_icon2_round"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stephanie Harris"
+            android:textColor="#000"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="online"
+            android:textColor="#fff"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Port Harcourt"
+            android:layout_marginBottom="32dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginLeft="180dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello"
+                android:background="@drawable/curve_edges"
+                android:padding="16dp"
+                />
+            <ImageView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@mipmap/mentaid_icon2_round"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginRight="120dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:gravity="left">
+            <ImageView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/mentaid_icon2_round"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello Sandra, How Are You?"
+                android:background="@drawable/curve_edges"
+                android:padding="16dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginLeft="120dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello Sandra, How Are You?"
+                android:background="@drawable/curve_edges"
+                android:padding="16dp"/>
+            <ImageView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/mentaid_icon2_round"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_marginRight="180dp">
+    <ImageView
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/mentaid_icon2_round"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gettin Depressed can Be Exhausting. What Are You Thinking About"
+                    android:background="@drawable/curve_edges"
+                    android:padding="16dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="120dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="right"
+                android:gravity="right">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A lot has been going on lately and I've considered many times to commit suicide, but i have younger ones"
+                    android:background="@drawable/curve_edges"
+                    android:padding="16dp"
+                    />
+                <ImageView
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/mentaid_icon2_round"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_circle_black_24dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_camera_alt_black_24dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_camera_alt_black_24dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mic_black_24dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_insert_emoticon_black_24dp"/>
+    </LinearLayout>
+</RelativeLayout>

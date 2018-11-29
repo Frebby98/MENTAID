@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/mentaid_icon2_foreground"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="32dp"
+            android:layout_marginRight="64dp"
+            android:layout_marginLeft="64dp"
+            android:gravity="center"
+            android:layout_marginBottom="32dp"
+            android:text="Hello Sandra, Need To Talk To Someone"/>
+
+        <Button
+            android:textSize="21dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+android:id="@+id/connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connect Here"
+            android:background="@drawable/curve_edges"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+</RelativeLayout>

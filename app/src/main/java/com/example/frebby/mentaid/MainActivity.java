@@ -12,13 +12,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         if(login.isPressed()) {
-            intent = new Intent(this, TenthActivity.class);
+            intent = new Intent(this, SeventhActivity.class);
             startActivity(intent);}
 
     }
 
 
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);

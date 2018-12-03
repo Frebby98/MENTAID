@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="16dp"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_weight="1.5"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@mipmap/mentaid_icon_background"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+
+        android:background="@drawable/line_demarcation"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:text="CHAT"
+        android:textSize="24dp"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_weight="3"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="64dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_question_answer_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="OTHER USERS"
+                android:textSize="24dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="1.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:layout_marginTop="21dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="21dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_question_answer_blue_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:text="OTHER USERS"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_weight="0.8"
+        android:paddingBottom="16dp"
+        android:textColor="#000"
+        android:layout_height="21dp"
+        android:textSize="24sp"
+        android:text="Featured Videos"
+        android:background="#c6bebe"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="6"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:background="#000"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/youtube"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:paddingTop="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:gravity="center"
+                android:scaleType="center"
+                android:src="@drawable/ic_play_arrow_white_24dp"
+
+
+                />
+    </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingLeft="8dp"
+android:paddingRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#000"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play_arrow_white_24dp"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingRight="16dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_pause_black_24dp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="0:00 - 5:37"
+        android:textSize="16sp"
+
+        android:textColor="#fff"
+        android:layout_weight="2"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="24dp"
+
+            android:background="@drawable/rectangle_grey_box"/>
+        <ImageView
+            android:paddingLeft="24dp"
+            android:paddingStart="24dp"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_settings_white_24dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16sp"
+
+        android:layout_marginBottom="21dp"
+        android:layout_gravity="center"
+        android:gravity="start"
+        android:textColor="#000"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="21dp"
+        android:layout_height="16dp"
+        android:text="Are You Feeling Depressed? This video would Motivate yo and soothe ypur soul"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp"
+    android:orientation="horizontal"
+
+    android:padding="16dp"
+        android:background="#efe8e8"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+    >
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_add_circle_black_24dp"
+        />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_home_black_24dp"
+        />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_mic_black_24dp"
+        />
+    </LinearLayout>
+</LinearLayout>
+
+
+</RelativeLayout>

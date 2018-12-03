@@ -2,4 +2,35 @@
     <string name="app_name">MENTAID</string>
     <string name="quote"> "If you know anyone that is feeling suicidal call this helpline -
         0700MENTAID "</string>
+    <string name="account_absence_string">Don\'t Have An Account, Sign Up</string>
+    <string name="mentaid_string">MENTAID</string>
+    <string name="email_address_string">EMAIL ADDRESS</string>
+    <string name="password_string">PASSWORD</string>
+    <string name="login_string">LOGIN</string>
+    <string name="first_name_string">FIRST NAME</string>
+    <string name="last_name_string">LAST NAME</string>
+    <string name="sign_up_as_string">SIGN UP AS</string>
+    <string name="user_string">USER</string>
+    <string name="counsellor_string">COUNSELLOR</string>
+    <string name="phone_number_string">PHONE NUMBER</string>
+    <string name="re_enter_password">RE-ENTER PASSWORD</string>
+    <string name="register_string">REGISTER</string>
+    <string name="hello_sandra_string">Hello Sandra, Need To Talk To Someone</string>
+    <string name="connect_here_string">Connect Here</string>
+    <string name="stephanie_harris_text">STEPHANIE HARRIS</string>
+    <string name="m_a_counsellor_string">(M.A - Counsellor)</string>
+    <string name="port_harcourt_string">Port Harcourt, Nigeria</string>
+    <string name="think_less_string">"Don't let Anyone Think less Of You"</string>
+    <string name="message_string">Message</string>
+    <string name="call_string">Call</string>
+    <string name="tanisha_steward_string">TANISHA STEWARD</string>
+    <string name="greater_than_string">"You Are Greater Than You Can Ever Imagine"</string>
+    <string name="edit_profile_string">EDIT PROFILE</string>
+    <string name="select_location_string">Select Location</string>
+    <string name="quote_for_bio_string">Quote For Bio</string>
+    <string name="change_password">CHANGE PASSWORD</string>
+    <string name="update">UPDATE</string>
+    <string name="change_profile_page_photo_string">CHANGE PROFILE PAGE PHOTO</string>
+    <string name="change_photo_string">CHANGE PHOTO</string>
+
 </resources>

@@ -1,52 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_marginTop="8dp"
+android:layout_marginBottom="8dp"
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     >
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-       >
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_weight="1"
         android:layout_height="0dp"
-        android:orientation="horizontal"
+android:layout_weight="1"
         android:gravity="center"
-        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
 
         >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
         <TextView
-            android:layout_width="wrap_content"
+android:gravity="center"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="DEFAULT VIEW"
-            android:layout_marginRight="8dp"
-            />
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="64dp"
-            android:text="CARD"
-            android:padding="16dp"
-            />
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="LIST"
-            android:padding="16dp"
+            android:textSize="18dp"
+            android:textColor="#000"
 
             />
+        <RadioButton
+            android:paddingLeft="16dp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CARD"
+            android:textColor="#000"
+            android:textSize="18dp"
+
+
+
+            />
+        <RadioButton
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="LIST"
+            android:textColor="#000"
+            android:textSize="18dp"
+
+            />
+        </LinearLayout>
     </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="1.5"
+        android:layout_height="wrap_content"
         android:text="@string/quote"
         android:textStyle="italic"
         android:layout_gravity="center"
-        android:gravity="center"
+        android:gravity="start"
+        android:textSize="21sp"
 
         />
     <LinearLayout
@@ -54,7 +71,8 @@
         android:layout_height="0dp"
         android:orientation="vertical"
         android:gravity="center"
-        android:layout_weight="10"
+        android:layout_weight="7"
+
         >
     <TextView
         android:layout_width="match_parent"
@@ -62,11 +80,16 @@
         android:background="@drawable/line_demarcation"
         />
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="64dp"
-            android:layout_marginRight="64dp"
-android:text="Stephanie Harris"            />
+android:text="Stephanie Harris"
+            android:layout_marginLeft="16dp"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:drawablePadding="54dp"
+            android:drawableLeft="@drawable/ic_lens_green_24dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -74,11 +97,16 @@ android:text="Stephanie Harris"            />
             android:background="@drawable/line_demarcation"
             />
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="64dp"
-            android:layout_marginRight="64dp"
-            android:text="Stephanie Harris"/>
+            android:text="Stephanie Harris"
+            android:layout_marginLeft="16dp"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:drawablePadding="54dp"
+            android:drawableLeft="@drawable/ic_lens_green_24dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -86,11 +114,16 @@ android:text="Stephanie Harris"            />
             android:background="@drawable/line_demarcation"
             />
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="64dp"
-            android:layout_marginRight="64dp"
-            android:text="Stephanie Harris"            />
+            android:text="Stephanie Harris"
+            android:layout_marginLeft="16dp"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:drawablePadding="54dp"
+            android:drawableLeft="@drawable/ic_lens_pink_24dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -98,22 +131,32 @@ android:text="Stephanie Harris"            />
             android:background="@drawable/line_demarcation"
             />
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="64dp"
-            android:layout_marginRight="64dp"
-            android:text="Stephanie Harris"/>
+            android:text="Stephanie Harris"
+            android:layout_marginLeft="16dp"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:drawablePadding="54dp"
+            android:drawableLeft="@drawable/ic_lens_green_24dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/line_demarcation"
             />
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="64dp"
-            android:layout_marginRight="64dp"
-            android:text="Stephanie Harris"            />
+            android:text="Stephanie Harris"
+            android:layout_marginLeft="16dp"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:drawablePadding="54dp"
+            android:drawableLeft="@drawable/ic_lens_pink_24dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -121,11 +164,16 @@ android:text="Stephanie Harris"            />
             android:background="@drawable/line_demarcation"
             />
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="64dp"
-            android:layout_marginRight="64dp"
-            android:text="Stephanie Harris"/>
+            android:text="Stephanie Harris"
+            android:layout_marginLeft="16dp"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:drawablePadding="54dp"
+            android:drawableLeft="@drawable/ic_lens_pink_24dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -133,22 +181,32 @@ android:text="Stephanie Harris"            />
             android:background="@drawable/line_demarcation"
             />
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="64dp"
-            android:layout_marginRight="64dp"
-            android:text="Stephanie Harris"            />
+            android:text="Stephanie Harris"
+            android:layout_marginLeft="16dp"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:drawablePadding="54dp"
+            android:drawableLeft="@drawable/ic_lens_green_24dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/line_demarcation"
             />
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="64dp"
-            android:layout_marginRight="64dp"
-            android:text="Stephanie Harris"/>
+            android:text="Stephanie Harris"
+            android:layout_marginLeft="16dp"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:drawablePadding="54dp"
+            android:drawableLeft="@drawable/ic_lens_yellow_24dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -156,11 +214,16 @@ android:text="Stephanie Harris"            />
             android:background="@drawable/line_demarcation"
             />
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="64dp"
-            android:layout_marginRight="64dp"
-            android:text="Stephanie Harris"            />
+            android:text="Stephanie Harris"
+            android:layout_marginLeft="16dp"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:drawablePadding="54dp"
+            android:drawableLeft="@drawable/ic_lens_green_24dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -168,11 +231,16 @@ android:text="Stephanie Harris"            />
             android:background="@drawable/line_demarcation"
             />
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="64dp"
-            android:layout_marginRight="64dp"
-            android:text="Stephanie Harris"/>
+            android:text="Stephanie Harris"
+            android:layout_marginLeft="16dp"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:drawablePadding="54dp"
+            android:drawableLeft="@drawable/ic_lens_green_24dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -181,47 +249,48 @@ android:text="Stephanie Harris"            />
 
 
     </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:background="#efe8e8"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_play_arrow_black_24dp"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_home_black_24dp"
+                android:layout_weight="1"
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:background="#4646"
-        >
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:scaleType="center"
-            android:layout_marginRight="72dp"
-            android:src="@drawable/ic_play_arrow_black_24dp"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:scaleType="center"
-            android:layout_marginRight="72dp"
-            android:src="@drawable/ic_home_black_24dp"/>
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginRight="72dp"
-            android:layout_gravity="center"
-            android:scaleType="center"
-            android:src="@drawable/ic_account_circle_black_24dp"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:scaleType="center"
-            android:src="@drawable/ic_settings_black_24dp"/>
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_settings_black_24dp"
+                />
+        </LinearLayout>
     </LinearLayout>
-    </LinearLayout>
-</RelativeLayout>
+</LinearLayout>

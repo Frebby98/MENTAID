@@ -12,7 +12,7 @@ public class ThirdActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View view) {
         if (connect.isPressed()) {
-            intent = new Intent(this, NinethActivity.class);
+            intent = new Intent(this, FifthActivity.class);
             startActivity(intent);
         }
 

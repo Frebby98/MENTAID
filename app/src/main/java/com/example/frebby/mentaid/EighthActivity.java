@@ -10,26 +10,25 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
-public class Eight extends AppCompatActivity implements View.OnClickListener {
-    TextView message;
+public class EighthActivity extends AppCompatActivity implements View.OnClickListener {
+Button editProf;
     Intent intent;
 
     @Override
     public void onClick(View view) {
-        if (message.isSelected()){
-            intent = new Intent(this, EightActivity.class);
+        if (editProf.isPressed()){
+            intent = new Intent(this, NinethActivity.class);
             startActivity(intent);
         }
 
     }
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_eight);
 
-
-
+        editProf = findViewById(R.id.edit_prof);
+        editProf.setOnClickListener(this);
     }
 }

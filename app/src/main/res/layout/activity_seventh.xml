@@ -2,75 +2,93 @@
 <RelativeLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#4481be">
+    android:background="#4481be"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+
         android:layout_alignParentBottom="true"
         android:background="@drawable/top_curves"
-        android:layout_marginRight="16dp"
-        android:layout_marginLeft="16dp"
+
         android:gravity="center"
         >
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="STEPHANIE HARRIS"
-            android:textSize="32dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/stephanie_harris_text"
             android:textColor="#000000"
-            android:paddingTop="24dp"/>
+            android:layout_marginTop="24dp"
+            android:textSize="21sp"
+            android:textStyle="bold"/>
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="(M.A - Counsellor)"
-            android:layout_marginBottom="21dp"
-            android:textSize="24dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/m_a_counsellor_string"
+            android:layout_marginBottom="16dp"
+            android:textSize="21sp"
             />
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Port Harcourt, Nigeria"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/port_harcourt_string"
             android:drawablePadding="21dp"
-            android:layout_marginBottom="32dp"
+            android:textSize="21dp"
+            android:layout_marginBottom="21dp"
             android:textColor="#000000"
-            android:textSize="28dp"
-            android:drawableLeft="@drawable/ic_location_on_pink_24dp"/>
+            android:textStyle="bold"
+            android:gravity="center"
+            android:drawableStart="@drawable/ic_location_on_pink_24dp"
+        android:drawableLeft="@drawable/ic_location_on_pink_24dp"/>
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Don't Let Anyone Think Less Of You"
-            android:layout_marginBottom="48dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/think_less_string"
+            android:layout_marginBottom="21dp"
+            android:textSize="21sp"
             android:textStyle="italic"
-            android:textSize="28dp"
+            android:gravity="start"
+            android:layout_gravity="center"
             />
 <LinearLayout
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="1"
     android:orientation="horizontal"
     android:gravity="center"
-    android:paddingBottom="16dp">
+    android:layout_marginBottom="16dp">
     <TextView
+        android:id="@+id/message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Message"
-        android:textSize="28dp"
+        android:text="@string/message_string"
         android:drawablePadding="16dp"
-        android:drawableLeft="@drawable/ic_message_pink_24dp"/>
+        android:textSize="21sp"
+        android:textColor="#000"
+        android:drawableLeft="@drawable/ic_message_pink_24dp"
+    android:drawableStart="@drawable/ic_message_pink_24dp"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
         android:background="@drawable/line_demarcation"/>
     <TextView
+        android:textSize="21dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Call"
-        android:textSize="28dp"
+        android:text="@string/call_string"
+        android:textColor="#000"
         android:drawablePadding="12dp"
-        android:drawableLeft="@drawable/ic_call_pink_24dp"/>
+        android:drawableLeft="@drawable/ic_call_pink_24dp"
+    android:drawableStart="@drawable/ic_call_pink_24dp"/>
 
 </LinearLayout>
     </LinearLayout>
